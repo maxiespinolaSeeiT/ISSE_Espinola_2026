@@ -1,0 +1,5 @@
+../Core/Src/aht20.c:26:6:AHT20_Init	32	static
+../Core/Src/aht20.c:59:6:AHT20_ReadMeasurement	48	static
+../Core/Src/aht20.c:95:7:AHT20_GetTemperature	16	static
+../Core/Src/aht20.c:100:7:AHT20_GetHumidity	16	static
+../Core/Src/aht20.c:106:13:AHT20_ReadStatus	24	static

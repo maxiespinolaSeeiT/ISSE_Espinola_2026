@@ -1,0 +1,3 @@
+../Core/Src/serial_display.c:32:6:SerialDisplay_Init	1
+../Core/Src/serial_display.c:53:6:SerialDisplay_PrintMeasurement	2
+../Core/Src/serial_display.c:78:6:SerialDisplay_PrintError	2

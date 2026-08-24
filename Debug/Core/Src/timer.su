@@ -1,0 +1,2 @@
+../Core/Src/timer.c:23:10:Timer_Millis	8	static
+../Core/Src/timer.c:37:6:Timer_Delay	16	static

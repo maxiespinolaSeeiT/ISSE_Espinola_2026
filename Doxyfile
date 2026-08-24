@@ -1,0 +1,41 @@
+PROJECT_NAME           = "TP Final ISSE - Estación Meteorológica"
+
+OUTPUT_DIRECTORY       = docs
+
+INPUT                  = Core/Inc/aht20.h \
+                         Core/Inc/serial_display.h \
+                         Core/Inc/timer.h \
+                         Core/Inc/main.h \
+                         Core/Src/aht20.c \
+                         Core/Src/serial_display.c \
+                         Core/Src/timer.c \
+                         Core/Src/main.c \
+                         Core/Src/app.c \
+                         Core/Inc/app.h
+                         
+
+FILE_PATTERNS          = *.c *.h
+
+RECURSIVE              = NO
+
+EXCLUDE                = Debug \
+                         Drivers
+
+EXTRACT_ALL            = YES
+
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = YES
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+REFERENCES_RELATION    = YES
+REFERENCES_LINK_SOURCE = YES
+
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+HAVE_DOT              = NO
